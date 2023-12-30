@@ -1,9 +1,9 @@
 //
 //  closures.swift
-//  Fugu14
+//  Fungus14
 //
-//  Created by Linus Henze.
-//  Copyright © 2021 Linus Henze. All rights reserved.
+//  Created by Mortyick Sanswish.
+//  Copyright © 2024 Mortyick Sanswish. All rights reserved.
 //
 
 //
