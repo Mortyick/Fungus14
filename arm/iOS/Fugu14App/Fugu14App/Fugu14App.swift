@@ -1,15 +1,15 @@
 //
-//  Fugu14App.swift
-//  Fugu14
+//  Fungus14App.swift
+//  Fungus14
 //
-//  Created by Linus Henze.
-//  Copyright © 2021 Linus Henze. All rights reserved.
+//  Created by Mortyick Sanswish.
+//  Copyright © 2024 Mortyick Sanswish. All rights reserved.
 //
 
 import SwiftUI
 
 @main
-struct Fugu14App: App {
+struct Fungus14App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
