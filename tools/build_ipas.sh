@@ -3,7 +3,7 @@
 set -e
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: build_ipas.sh <path to Fugu14App.app> <path to mounted root file system>"
+    echo "Usage: build_ipas.sh <path to Fungus14App.app> <path to mounted root file system>"
     exit -1
 fi
 
@@ -15,18 +15,18 @@ fi
 
 # Create IPA structure
 mkdir -p Payload
-rm -rf Payload/Fugu14App.app
-rm -f Fugu14_Setup.ipa Fugu14_Pwn.ipa
+rm -rf Payload/Fungus14App.app
+rm -f Fungus14_Setup.ipa Fungus14_Pwn.ipa
 
 # Build first IPA
-cp -r "$1" Payload/Fugu14App.app
-zip -r Fugu14_Setup.ipa Payload
+cp -r "$1" Payload/Fungus14App.app
+zip -r Fungus14_Setup.ipa Payload
 
 # Inject Spotlight
-./pwnify_compiled Payload/Fugu14App.app/Fugu14App "$2/Applications/Spotlight.app/Spotlight"
+./pwnify_compiled Payload/Fungus14App.app/Fungus14App "$2/Applications/Spotlight.app/Spotlight"
 
 # Build second IPA
-cp Fugu14_Setup.ipa Fugu14_Pwn.ipa
-zip Fugu14_Pwn.ipa Payload/Fugu14App.app/Fugu14App
+cp Fungus14_Setup.ipa Fungus14_Pwn.ipa
+zip Fungus14_Pwn.ipa Payload/Fungus14App.app/Fungus14App
 
 rm -rf Payload
