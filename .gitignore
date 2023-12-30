@@ -4,7 +4,7 @@
 xcuserdata/
 DerivedData/
 .swiftpm
-arm/iOS/Fugu14App/Fugu14App/jailbreakd
-arm/iOS/Fugu14App/build/
-tools/Fugu14_Pwn.ipa
-tools/Fugu14_Setup.ipa
+arm/iOS/Fungus14App/Fungus14App/jailbreakd
+arm/iOS/Fungus14App/build/
+tools/Fungus14_Pwn.ipa
+tools/Fungus14_Setup.ipa
