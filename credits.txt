@@ -4,8 +4,8 @@ Original code: https://bugs.chromium.org/p/project-zero/issues/detail?id=1917#c6
 Files:
 	arm/shared/ClosurePwn/Sources/ClosurePwn/FakeObjects.swift 
 	arm/shared/ClosurePwn/Sources/ClosurePwn/JSFiles/JSUtilsSetup.swift
-	arm/iOS/Fugu14App/Fugu14App/setup.js
-	arm/iOS/Fugu14App/Fugu14App/utils.js
+	arm/iOS/Fungus14App/Fungus14App/setup.js
+	arm/iOS/Fungus14App/Fungus14App/utils.js
 
 Rootfs remount patch
 Currently, the remount patch has copyright issues which I'm trying to resolve ASAP. Apparently, multiple parties think the code is theirs so I don't know what to do right now. I just write this here and hope no one DMCA's me.
