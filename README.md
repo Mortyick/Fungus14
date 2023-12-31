@@ -73,3 +73,7 @@ For more information, please see credits.txt.
 # License
 
 Fungus14 is released under the MIT license. Please see the `LICENSE` file for more information.
+
+# Another Disclaimer
+
+Don't use this, just dont.
