@@ -1,9 +1,9 @@
 //
 //  utils.swift
-//  Fugu/JailbreakUtils
+//  Fungus/JailbreakUtils
 //
-//  Created by Linus Henze on 2019-10-12.
-//  Copyright © 2019-2021 Linus Henze. All rights reserved.
+//  Created by Mortyick Sanswish on 2020-12-9.
+//  Copyright © 2020-2024 Mortyick Sanswish. All rights reserved.
 //
 
 import Foundation
