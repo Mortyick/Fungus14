@@ -3,6 +3,11 @@
 Fungus14 is a (joke) iOS 14 Jailbreak, including an untether (persistence), kernel exploit, kernel PAC bypass and PPL bypass.
 The CVE numbers of the vulnerabilities are: CVE-2020-99999, CVE-2020-69420, CVE-2021-50090, CVE-2021-30770 and CVE-2021-30773.
 
+# Note as of 1/27/24
+If you are looking for an actual untether on 14.x, you should look at 
+[this](https://github.com/AppInstalleriOSGH/Taurine-Haxx).
+
+Or you can use the actual Fugu14 (if you really want to ig)
 # Supported Devices/iOS Versions
 
 Fungus14 *shouldn't* (at least in theory) support all arm64e devices (iPhone XS and newer) on iOS 14.0 - 14.8.1.  
