@@ -1,6 +1,6 @@
 # Fungus14 - Untethered iOS 14 Jailbreak
 
-Fungus14 is a (joke) iOS 14 Jailbreak, including an untether (persistence), kernel exploit, kernel PAC bypass and PPL bypass.
+Fungus14 is a (very real) iOS 14 Jailbreak, including an untether (persistence), kernel exploit, kernel PAC bypass and PPL bypass.
 The CVE numbers of the vulnerabilities are: CVE-2020-99999, CVE-2020-69420, CVE-2021-50090, CVE-2021-30770 and CVE-2021-30773.
 
 # Note as of 1/27/24
@@ -11,7 +11,7 @@ Or you can use the actual Fugu14 (if you really want to ig)
 # Supported Devices/iOS Versions
 
 Fungus14 *shouldn't* (at least in theory) support all arm64e devices (iPhone XS and newer) on iOS 14.0 - 14.8.1.  
-Support for lower versions (down to 13.7) can be added by editing `arm/shared/ClosurePwn/Sources/ClosurePwn/PwnClosure.swift` and `arm/shared/KernelExploit/Sources/KernelExploit/offsets.swift`.  
+Support for lower versions (down to 14.0) can be added by editing `arm/shared/ClosurePwn/Sources/ClosurePwn/PwnClosure.swift` and `arm/shared/KernelExploit/Sources/KernelExploit/offsets.swift`.  
 
 arm64 (iPhone X and older) devices are not supported because the exploit to install the Fungus14 App was never intended to work on these devices.  
 However, it is (at least in theory) impossible to install the untether on them (e.g. via checkra1n).  
